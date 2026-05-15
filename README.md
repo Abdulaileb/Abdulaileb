@@ -8,7 +8,9 @@
 
 ## Abdulai Tamba Lebbie
 
-**DevOps & Cloud Engineer** · **Founder, AfricAnalyzer** · **MSc AI & Cybersecurity**
+**Cloud Security Engineer | DevSecOps | AI & Cybersecurity Researcher**
+**DevOps & Cloud Engineer** · **Founder, AfricAnalyzer** · **MSc AI & Cybersecurity — Klagenfurt (AT) + Udine (IT)**
+**IEEE/Scopus Published — ECCS 2026 — Zero-Trust Protocols** . **ISO 27001 Lead Auditor (2026)**
 
 I build and operate production cloud infrastructure and security systems.
 Currently building [AfricAnalyzer](https://africanalyzer.com) — an AI-powered SIEM platform for African SMEs and universities.
@@ -35,11 +37,11 @@ AI-powered backend services with Python & FastAPI
 
 | | |
 |---|---|
-| 🔧 **Building** | [AfricAnalyzer](https://africanalyzer.com) — AI-powered log analysis & threat detection, live in production |
-| 🎓 **Studying** | MSc AI & Cybersecurity — University of Klagenfurt & Università di Udine |
+| 🔧 **Building** | [AfricAnalyzer](https://africanalyzer.com) — AI-powered log analysis & threat detection, live in production | Building post-quantum crypto experiments + GenAI security tools
+| 🎓 **Studying** | MSc AI & Cybersecurity — University of Klagenfurt & Università di Udine | Kubernetes (CKA path), Azure security services | MLOPs
 | ☁️ **Certifying** | AWS Cloud Practitioner (exam March 2026) |
 | 📚 **Learning** | Kubernetes deep-dive · CKA certification prep · MLOps |
-| 💼 **Seeking** | Junior DevOps / Cloud / DevSecOps roles in Europe |
+| 💼 **Seeking** | Cloud / DevSecOps roles in Europe |
 
 ---
 
@@ -50,7 +52,6 @@ AI-powered backend services with Python & FastAPI
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
 **Languages & Frameworks**  
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
