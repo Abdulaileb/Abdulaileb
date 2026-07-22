@@ -57,7 +57,7 @@ University of Klagenfurt / University of Udine · Supervisors: Prof. Dr. Schartn
 
 | Area | Status |
 |------|--------|
-| ☁️ **Azure Security** | AZ-104 in progress · Azure Sentinel, Defender for Cloud, Entra ID PIM hands-on |
+| ☁️ **Azure Security** | AZ-Devops in progress · Azure Sentinel, Defender for Cloud, Entra ID PIM hands-on |
 | 🔬 **MSc Thesis** | Behavioral anomaly detection · Adversarial ML evaluation with IBM ART |
 | 🏗️ **AKEP Platform** | Multi-tenant SaaS · AWS ECS/Fargate · Terraform · Preparing production deployment |
 | 🔒 **LebSec Technologies** | NIS2 compliance tooling for Austrian SMEs · Build! Gründungszentrum Carinthia incubator |
@@ -138,7 +138,7 @@ Security monitoring platform for SME and institutional networks · `africanalyze
 | ECCS 2026 Publication | Peer-reviewed · All 8 evaluation criteria: Yes |
 | Falling Walls Lab Finalist | Austria 2026 |
 | AWS SAA | In progress |
-| AZ-104 | In progress |
+| AZ-Devops | In progress |
 
 ---
 
