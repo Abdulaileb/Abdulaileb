@@ -25,7 +25,6 @@
 
 <table>
 <tr><td align="center">
-
 <pre>
 ╔══════════════════════════════════════════════════════════════╗
 ║  Zero-Trust Boot Protocol · ECCS 2026 · Vienna              ║
@@ -33,9 +32,9 @@
 ║  ISO 27001 Lead Auditor · LebSec Technologies               ║
 ╚══════════════════════════════════════════════════════════════╝
 </pre>
-
 </td></tr>
 </table>
+
 
 
 
