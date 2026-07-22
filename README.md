@@ -95,7 +95,7 @@ ISO 27001 Lead Auditor · SOC 2 (Drata)
 
 **Languages**
 ```
-Python (FastAPI · SQLAlchemy · scikit-learn · pytest)
+Python (FastAPI · SQLAlchemy · scikit-learn · pytest . pytorch)
 Bash · SQL · HCL (Terraform) · KQL (Azure Sentinel)
 ```
 
@@ -144,7 +144,7 @@ Security monitoring platform for SME and institutional networks · `africanalyze
 
 ## Currently open to
 
-Junior to mid-level **Cloud Security Engineer**, **DevSecOps Engineer**, or **Security Engineer** roles in Europe — Germany, Netherlands, Austria, Spain, or remote EMEA.
+**Cloud Security Engineer**, **DevSecOps Engineer**, or **Security Engineer** roles in person and remote EMEA.
 
 I bring published security research, hands-on production infrastructure, ISO 27001 governance depth, and a direct line between academic adversarial ML research and real deployed systems.
 
