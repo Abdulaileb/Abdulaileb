@@ -1,144 +1,154 @@
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C48C&center=true&vCenter=true&width=600&lines=DevOps+%26+Cloud+Engineer;AI+%26+Cybersecurity+MSc+Student;Founder+%40+AfricAnalyzer;Building+in+public+%F0%9F%9A%80" alt="Typing SVG" />
+```
+╔══════════════════════════════════════════════════════════════╗
+║  Zero-Trust Boot Protocol · ECCS 2026 · Vienna              ║
+║  Behavioral Anomaly Detection for IoT · MSc Thesis 2027     ║
+║  ISO 27001 Lead Auditor · LebSec Technologies               ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
----
+# Abdulai Tamba Lebbie
 
-## Abdulai Tamba Lebbie
+**Cloud Security Engineer · DevSecOps · AI Security Research**
 
-**Cloud Security Engineer | DevSecOps | AI & Cybersecurity Researcher**
-**DevOps & Cloud Engineer** · **Founder, AfricAnalyzer** · **MSc AI & Cybersecurity — Klagenfurt (AT) + Udine (IT)**
-**IEEE/Scopus Published — ECCS 2026 — Zero-Trust Protocols** . **ISO 27001 Lead Auditor (2026)**
+I design and build security-hardened cloud infrastructure, secure CI/CD pipelines, and AI security systems. My work spans from published protocol-level security research to production platform engineering.
 
-I build and operate production cloud infrastructure and security systems.
-Currently building [AfricAnalyzer](https://africanalyzer.com) — an AI-powered SIEM platform for African SMEs and universities.
+📍 Udine, Italy (EU resident) · Open to relocation · `a1lebbie@edu.aau.at`
 
-📍 Udine, Italy · 🌍 Open to EU remote or relocation · 📧 atlebbie@gmail.com
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulai-tamba-lebbie-9556919b/)
-[![AfricAnalyzer](https://img.shields.io/badge/AfricAnalyzer-Live-00C48C?style=flat)](https://africanalyzer.com)
-
-
-
-## What I Build
-
-```
-Production cloud infrastructure (AWS · Docker · Terraform)
-CI/CD pipelines with security scanning and zero-downtime deploys
-SIEM and security log analysis systems (AfricAnalyzer)
-AI-powered backend services with Python & FastAPI
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulai-tamba-lebbie-9556919b/)
+[![ECCS 2026](https://img.shields.io/badge/ECCS_2026-Published-00C48C?style=flat)](https://africanalyzer.com)
+[![ISO 27001](https://img.shields.io/badge/ISO_27001-Lead_Auditor-blue?style=flat)]()
 
 ---
 
-## Current Focus — March 2026
+## What I actually build
 
-| | |
+**Security infrastructure** — zero-trust architectures, IAM frameworks, hardened cloud environments (AWS, Azure), and network security controls deployed as code.
+
+**DevSecOps pipelines** — CI/CD pipelines with SAST (Semgrep), secret scanning (Gitleaks), container scanning (Trivy), IaC scanning (Checkov), SBOM generation (Syft), and keyless image signing (Cosign). Deployment only on green.
+
+**AI security systems** — adversarial ML evaluation using IBM ART, LLM security hardening against OWASP LLM Top 10, and ML-based anomaly detection for network security.
+
+**Security research** — designed and published the Zero-Trust Boot Protocol (ZTBP), eliminating the router boot-time default-credential vulnerability window. Evaluated against real attack scenarios. 0% attack success rate.
+
+---
+
+## Published Research
+
+**A Zero-Trust Boot Protocol for Eliminating Router Boot-Time Vulnerability Windows**  
+ECCS 2026 — European Conference on Cyber Security · Vienna, June 2026 · Paper ID: AC6013  
+Supervised by Prof. Dr. Peter Schartner · University of Klagenfurt
+
+> Designed a fail-closed boot protocol for IoT routers that eliminates the 42–48 second default-credential exposure window at first power-on. Evaluated against Mirai-style credential stuffing and Shodan-style discovery attacks. 0.4s overhead. No hardware changes required. Aligns with EU Cyber Resilience Act, UK PSTI Act, and NIST SP 800-207.
+
+**Current Thesis (2027)**  
+*Server-Side Behavioral Anomaly Detection for IoT Device Authentication: A Machine Learning Approach to Zero-Trust Boot-Time Trust Scoring*  
+University of Klagenfurt / University of Udine · Supervisors: Prof. Dr. Schartner, Prof. Miculan
+
+> Building the first publicly labeled dataset of IoT boot-time behavioral telemetry (4 device classes: healthy, Mirai-variant, firmware-tampered, replay-attack). Evaluating RF, XGBoost, and LSTM classifiers. Adversarial evasion analysis via IBM ART (RQ4). Target: Zenodo DOI release.
+
+---
+
+## Current Focus
+
+| Area | Status |
+|------|--------|
+| ☁️ **Azure Security** | AZ-104 in progress · Azure Sentinel, Defender for Cloud, Entra ID PIM hands-on |
+| 🔬 **MSc Thesis** | Behavioral anomaly detection · Adversarial ML evaluation with IBM ART |
+| 🏗️ **AKEP Platform** | Multi-tenant SaaS · AWS ECS/Fargate · Terraform · Preparing production deployment |
+| 🔒 **LebSec Technologies** | NIS2 compliance tooling for Austrian SMEs · Build! Gründungszentrum Carinthia incubator |
+| 🎯 **CTF Research** | SMART CYBERTRAINING study · TU Wien & University of Klagenfurt · AI-assisted offensive security |
+
+---
+
+## Stack
+
+**Cloud & IaC**
+```
+AWS (ECS Fargate · RDS · VPC · IAM · GuardDuty · CloudTrail · WAF · KMS · Secrets Manager)
+Azure (Entra ID · Defender for Cloud · Sentinel · Key Vault · Azure Policy)
+Terraform · Ansible · Bash
+```
+
+**DevSecOps Pipeline**
+```
+GitHub Actions (OIDC→AWS, zero long-lived credentials)
+SAST: Semgrep · Bandit
+Secrets: Gitleaks · detect-secrets
+IaC: Checkov · tfsec
+Container: Trivy · Syft (SBOM) · Cosign (keyless signing) · SLSA L2
+DAST: OWASP ZAP
+```
+
+**Security & AI**
+```
+IBM Adversarial Robustness Toolbox (ART)
+OWASP LLM Top 10 · MITRE ATT&CK · MITRE ATLAS
+Garak (LLM vulnerability scanner)
+scikit-learn · PyTorch · XGBoost · pgvector
+ISO 27001 Lead Auditor · SOC 2 (Drata)
+```
+
+**Languages**
+```
+Python (FastAPI · SQLAlchemy · scikit-learn · pytest)
+Bash · SQL · HCL (Terraform) · KQL (Azure Sentinel)
+```
+
+---
+
+## Projects
+
+### 🔐 AKEP Platform
+Multi-tenant university management SaaS with integrated AI services · `akepapp.com`
+
+- AWS ECS Fargate · RDS PostgreSQL 15 · Terraform · GitHub Actions OIDC
+- Security pipeline: Semgrep → Gitleaks → Checkov → Trivy → Syft → Cosign → deploy
+- AI layer: Ollama local LLM · pgvector semantic search · prompt injection defence
+- Directed a team of 3 engineers (frontend, backend, API) as technical lead
+- Preparing for first production deployment
+
+### 🛡️ AfricAnalyzer / LebSec
+Security monitoring platform for SME and institutional networks · `africanalyzer.com`
+
+- Log ingestion · anomaly detection · NIS2 compliance mapping
+- Directed a team of 3 engineers (backend/API, AI/ML, security)
+- Currently evaluating NIS2-aligned pivot for Austrian/European SME market
+- Accepted into Build! Gründungszentrum Carinthia · Silicon Alps Cluster
+
+### 🔬 Zero-Trust Boot Protocol (ZTBP)
+[→ Published ECCS 2026]
+
+- OpenWrt 23.05.2 · VLAN 802.1Q · Argon2id · fail-closed state machine
+- Testbed: QEMU/KVM on GCP + physical TP-Link Archer A7 and TL-WR841N
+- Attack simulation: Hydra (credential stuffing) · Nmap (discovery) · tcpdump
+
+---
+
+## Credentials
+
+| Credential | Detail |
 |---|---|
-| 🔧 **Building** | [AfricAnalyzer](https://africanalyzer.com) — AI-powered log analysis & threat detection, live in production | Building post-quantum crypto experiments + GenAI security tools
-| 🎓 **Studying** | MSc AI & Cybersecurity — University of Klagenfurt & Università di Udine | Kubernetes (CKA path), Azure security services | MLOPs
-| ☁️ **Certifying** | AWS Cloud Practitioner (exam March 2026) |
-| 📚 **Learning** | Kubernetes deep-dive · CKA certification prep · MLOps |
-| 💼 **Seeking** | Cloud / DevSecOps roles in Europe |
+| MSc AI & Cybersecurity | University of Klagenfurt / University of Udine · Expected 2027 |
+| ISO 27001 Lead Auditor | Certified February 2026 |
+| ECCS 2026 Publication | Peer-reviewed · All 8 evaluation criteria: Yes |
+| Falling Walls Lab Finalist | Austria 2026 |
+| AWS SAA | In progress |
+| AZ-104 | In progress |
 
 ---
 
-## Tech Stack
+## Currently open to
 
-**Cloud & Infrastructure**  
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+Junior to mid-level **Cloud Security Engineer**, **DevSecOps Engineer**, or **Security Engineer** roles in Europe — Germany, Netherlands, Austria, Spain, or remote EMEA.
 
-**Languages & Frameworks**  
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-
-**CI/CD & Observability**  
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-
-**Databases & Queues**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Security & AI**  
-![Splunk](https://img.shields.io/badge/Splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
+I bring published security research, hands-on production infrastructure, ISO 27001 governance depth, and a direct line between academic adversarial ML research and real deployed systems.
 
 ---
-
-## Featured Project
-
-### 🔒 [AfricAnalyzer](https://africanalyzer.com)
-> AI-powered SIEM platform for African SMEs and universities.  
-> Detects brute-force attacks, beaconing, port scans, and payload injections in real time.
-
-```
-Stack: FastAPI · PostgreSQL · Redis · Docker · AWS EC2 · GitHub Actions
-Status: Live in production · Validation phase · April 2026 public beta
-```
-
-**Architecture:** Log ingestion → Redis queue → 5 AI analysers → PostgreSQL → Dashboard  
-**Key result:** Threats detected in minutes vs days with traditional tools
-
----
-
-## GitHub Stats
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abdulaileb&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true)
-
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Abdulaileb&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulaileb&theme=tokyonight&hide_border=true&layout=compact&langs_count=6)
-
+<sub>Building in public · Last updated July 2026</sub>
 </div>
-
----
-
-## Quick Numbers
-
-```
-2+ years     →  Production DevOps experience
-99.7%        →  Uptime on AWS infrastructure managed
-90%          →  Deployment time reduction through CI/CD automation
-2 repos      →  AfricAnalyzer in production (private · April 2026 launch)
-```
-
----
-
-## Let's Connect
-
-I'm open to junior **DevOps**, **Cloud**, or **DevSecOps** roles in Europe (remote or relocation).  
-Also happy to connect with fellow engineers, founders, or anyone building in the cybersecurity space.
-
-[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulai-tamba-lebbie-9556919b/)
-[![Email](https://img.shields.io/badge/Email-atlebbie%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:atlebbie@gmail.com)
-[![AfricAnalyzer](https://img.shields.io/badge/AfricAnalyzer-africanalyzer.com-00C48C?style=for-the-badge)](https://africanalyzer.com)
-
-
-
-<!--
-**Abdulaileb/Abdulaileb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
