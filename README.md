@@ -23,6 +23,22 @@
 </p>
 
 
+<table>
+<tr><td align="center">
+
+<pre>
+╔══════════════════════════════════════════════════════════════╗
+║  Zero-Trust Boot Protocol · ECCS 2026 · Vienna              ║
+║  Behavioral Anomaly Detection for IoT · MSc Thesis 2027     ║
+║  ISO 27001 Lead Auditor · LebSec Technologies               ║
+╚══════════════════════════════════════════════════════════════╝
+</pre>
+
+</td></tr>
+</table>
+
+
+
 # Abdulai Tamba Lebbie
 
 **Cloud Security Engineer · DevSecOps · AI Security Research**
