@@ -17,7 +17,7 @@
 
 I design and build security-hardened cloud infrastructure, secure CI/CD pipelines, and AI security systems. My work spans from published protocol-level security research to production platform engineering.
 
-📍 Udine, Italy (EU resident) · Open to relocation · `a1lebbie@edu.aau.at`
+📍 Udine, Italy (EU resident) · Open to relocation · `atlebbie@gmail.com`
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulai-tamba-lebbie-9556919b/)
 [![ECCS 2026](https://img.shields.io/badge/ECCS_2026-Published-00C48C?style=flat)](https://africanalyzer.com)
