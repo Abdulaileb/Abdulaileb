@@ -2,9 +2,9 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║  Zero-Trust Boot Protocol · ECCS 2026 · Vienna              ║
-║  Behavioral Anomaly Detection for IoT · MSc Thesis 2027     ║
-║  ISO 27001 Lead Auditor · LebSec Technologies               ║
+║  Zero-Trust Boot Protocol · ECCS 2026 · Vienna               ║
+║  Adversarial ML for IoT Device Authentication · MSc 2027     ║
+║  ISO 27001 Lead Auditor · LebSec Technologies                ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
